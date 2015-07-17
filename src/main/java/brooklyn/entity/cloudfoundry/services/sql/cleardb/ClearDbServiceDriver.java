@@ -16,10 +16,12 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package brooklyn.location.paas.cloudfoundry;
+package brooklyn.entity.cloudfoundry.services.sql.cleardb;
 
-import brooklyn.location.MachineLocation;
+import brooklyn.entity.cloudfoundry.services.PaasServiceDriver;
 
-public interface PaasLocation extends MachineLocation {
+
+public interface ClearDbServiceDriver extends PaasServiceDriver {
+
 
 }
